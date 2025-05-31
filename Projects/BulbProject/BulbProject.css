@@ -1,0 +1,29 @@
+.bulb-image {
+    display: block;
+    margin: 1rem auto; /* Center the image */
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    margin-top: 1rem; /* Add spacing above buttons */
+}
+
+.btn {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

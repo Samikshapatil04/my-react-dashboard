@@ -1,0 +1,150 @@
+.container {
+    background-color: #000;
+    color: white;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    flex-wrap: wrap;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 5px 12px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .menu-btn,
+  .search-icon {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .dropdown,
+  .lang-dropdown {
+        padding: 5px 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+      
+  
+  
+  .search-input {
+    padding: 7px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .pro,
+  .watchlist,
+  .signin {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .add-btn {
+    background: none;
+    border: none;
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Form styling */
+  .form {
+    background-color: #1c1c1c;
+    color: yellow;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: white;
+  }
+  
+  .form button {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* No movies text */
+  .no-movies {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: grey;
+  }
+  
+  /* Movie list */
+  .movie-list {
+    padding: 20px;
+  }
+  
+  .movie-card {
+    display: flex;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .movie-card img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+  
+  .movie-info h3 {
+    margin: 0;
+    color: #ffc107;
+  }
+  
+  .movie-info p {
+    margin: 4px 0;
+    color: #cfcfcf;
+  }
+  

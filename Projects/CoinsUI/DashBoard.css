@@ -1,0 +1,55 @@
+
+
+   .dash-board {
+    width: 90vw;
+    height: 80vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+ 
+   .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .counter {
+    background-color: #d891ef;
+    padding: 0.25rem 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  .dash-board-body {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .dash-board-body-two {
+    width: 25%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+  

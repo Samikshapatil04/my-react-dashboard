@@ -1,0 +1,19 @@
+.fruits-select {
+    display: block; /* Block for better alignment as a dropdown */
+    margin: 1rem auto; /* Center it */
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.fruit-image {
+    display: block;
+    margin: 1rem auto; /* Center the image */
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+

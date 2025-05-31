@@ -1,0 +1,145 @@
+/* Overall container */
+.container {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+/* Background section */
+.background {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+/* Teams container */
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Individual team */
+.team {
+  width: calc(45% - 20px);
+  background-color: #faf0f076;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: height 0.3s ease;  /* Smooth height change */
+}
+
+/* Team heading */
+.team h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 8px;
+}
+
+/* Player cards container */
+.division-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+
+.division {
+  flex: 1 1 calc(22% - 20px);
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;              /* Optional: fix overall card height */
+}
+
+.division:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive: 3 per row on medium screens */
+@media (max-width: 1024px) {
+  .division {
+    flex: 1 1 calc(30% - 20px);
+  }
+}
+
+/* Responsive: 2 per row on tablets */
+@media (max-width: 768px) {
+  .division {
+    flex: 1 1 calc(47% - 20px);
+  }
+}
+
+/* Responsive: 1 per row on mobile */
+@media (max-width: 480px) {
+  .division {
+    flex: 1 1 100%;
+  }
+}
+
+/* Image box */
+.img-box {
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 100%;
+  height: 180px;              /* Fixed height */
+  object-fit: cover;          /* Crop proportionally */
+  border-radius: 5px;
+  border: 2px solid #666;
+}
+
+
+/* Player info text */
+.player-info {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+/* Button container */
+.button-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+/* Buttons */
+.button {
+  padding: 6px 12px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff8800;
+}

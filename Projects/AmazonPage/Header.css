@@ -1,0 +1,35 @@
+
+
+   .header {
+    background-color: #232f3e;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .cart-icon {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #f08804;
+    border-radius: 50%;
+    color: black;
+    padding: 2px 6px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

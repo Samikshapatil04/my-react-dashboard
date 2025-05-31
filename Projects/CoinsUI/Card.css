@@ -1,0 +1,15 @@
+
+
+   .card {
+    background-color: #A0C878;
+    padding: 10px;
+    margin: 8px auto;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    border: 3px solid #0B666A;
+  }
+  
